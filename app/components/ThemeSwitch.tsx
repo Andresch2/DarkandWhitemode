@@ -9,10 +9,10 @@ export default function ThemeSwitch() {
   const { setTheme, resolvedTheme } = useTheme();
 
   useEffect(() => {
-    setMounted(true); // Asegúrate de que se monte solo en el cliente
+    setMounted(true); 
   }, []);
 
-  if (!mounted) return null; // Asegúrate de no renderizar antes de montar el componente
+  if (!mounted) return null; 
 
   return (
     <button
