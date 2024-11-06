@@ -20,16 +20,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* globals.css */
-
-/* Estilo para el modo oscuro */
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark {
-  background-color: #1a202c; /* Fondo oscuro */
-  color: white; /* Color de texto claro */
+  background-color: #1a202c; 
+  color: white; 
 }
 
-/* Agrega estilos adicionales para el cambio de colores */
+
